@@ -1,16 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - Entry point of the program
- *
- * Description: Writes the lowercase alphabets from 'a' to 'z'
- *
- * Return: Always 0 (Success)
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
+ * Return: 0
  */
 int main(void)
 {
-    char c = 'a';
+	char c = 'a';
 
 	while (c <= 'z')
 	{
@@ -21,3 +18,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+

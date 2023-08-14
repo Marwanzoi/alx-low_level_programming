@@ -17,7 +17,7 @@ int main(void)
         putchar(ch);
     }
 
-    putchar('\n');  /* Print a newline character */
-    
+    putchar('\n'); /* Print a newline character */
+
     return 0;
 }

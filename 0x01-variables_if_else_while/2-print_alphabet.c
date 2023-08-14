@@ -11,13 +11,10 @@
 int main(void)
 {
     char ch;
-
     for (ch = 'a'; ch <= 'z'; ch++)
     {
         putchar(ch);
     }
-
-    putchar('\n'); /* Print a newline character */
-
+    putchar('\n');
     return 0;
 }

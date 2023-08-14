@@ -1,31 +1,32 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
-* main - Print the numbers of base 16 in lowercase
-*
-* Return: Always 0 (Success)
-*/
+ * main - create 2 pairs of number
+ * Return: 0
+ */
 int main(void)
 {
-int  num1, num2;
-for (num1 = 0; num1 <= 99; num1++)
-{
-for (num2 = 0; num2 <= 99; num2++)
-{
-putchar((num1 / 10) + '0');
-putchar((num1 % 10) + '0');
-putchar(' ');
-putchar((num2 / 10) + '0');
-putchar((num2 % 10) + '0');
+	int i, j;
 
-if (num1 < 99 || num2 < 99)
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
+	for (i = 0; i <= 99; i++)
+	{
+		for (j = i; j <= 99; j++)
+		{
+			if (j != i)
+			{
+				putchar(i / 10 + 48);
+				putchar(i % 10 + 48);
+				putchar(' ');
+				putchar(j / 10 + 48);
+				putchar(j % 10 + 48);
 
-putchar('\n');
-return (0);
+				if (i * 100 + j != 9899)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }

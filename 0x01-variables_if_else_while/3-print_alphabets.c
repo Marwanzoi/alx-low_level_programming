@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Get a random number and check its last digit, compare it with 5
+ * Description : prints the alphabet in lowercase, and then in uppercase
  * Return: 0
  */
 int main(void)
@@ -15,8 +15,6 @@ int main(void)
                 putchar(c);
                 c++;
         }
-
-        putchar('\n');
 
         while (ch <= 'Z')
         {

@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-char strings[] = "_putchar";
+char aze[] = "_putchar";
 int c;
-for (c = 0; c <= 8; c++)
+for (c = 0; c < 8; c++)
 {
-_putchar(strings[c]);
+_putchar(aze[c]);
 
 }
 _putchar('\n');

@@ -1,16 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /*
  * Main - The main function
  * Description : program that prints _putchar
  *
 */
-void putchar1 ()
-{
-printf ("_putchar") ;
-}
 int main(void)
 {
-putchar1();
+char strings[] = "_putchar";
+int c
+for (c = 0 ; C <= 8 ; c++)
+{
+putchar(strings[c];
+}
+_putchar("\n");
 return(0);
 }

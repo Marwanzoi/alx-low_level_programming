@@ -8,11 +8,12 @@
 int main(void)
 {
 char strings[] = "_putchar";
-int c
-for (c = 0 ; C <= 8 ; c++)
+int c ;
+for (c = 0; c <= 8; c++)
 {
-putchar(strings[c];
+_putchar(strings[c]);
+
 }
-_putchar("\n");
+_putchar('\n');
 return(0);
 }

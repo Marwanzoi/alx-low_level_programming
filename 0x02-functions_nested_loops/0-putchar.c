@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
-/*
- * Main - The main function
- * Description : program that prints _putchar
- *
-*/
+/**
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
+ */
 int main(void)
 {
 char strings[] = "_putchar";

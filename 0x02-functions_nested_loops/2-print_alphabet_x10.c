@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - check the code for ALX School students.
+ * Description :  prints 10 times the alphabet, in lowercase
  *
  * Return: Always 0.
 */

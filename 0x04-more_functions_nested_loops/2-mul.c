@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * mul - function that multiplies two integers.
- * @a , @b: Int
- * Return: Always 0.
+ * mul - Multiply 2 integers.
+ * @a: An integer to be multiplied with b
+ * @b : An integer to be multipled with a
+ * Return: Return the result of the multiplication
  */
 int mul(int a, int b)
 {

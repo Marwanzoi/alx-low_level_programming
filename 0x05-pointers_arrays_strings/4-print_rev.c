@@ -22,4 +22,5 @@ while (x <= i)
 _putchar(*(ptr--));
 x++;
 }
+_putchar('\n');
 }
